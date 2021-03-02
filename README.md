@@ -22,3 +22,12 @@ Durante o segundo dia:
   - Criação do controler: UserController
   - Criação da model: User.
   - Criação da rota para criação de um User.
+
+## Dia 3:
+Durante o terceiro dia:
+  - Refatoração do UserController para usar Repositories e diminuir o acoplamento na aplicação.
+  - Criação do repositório para usuário (UserRepository) utilizando extendendo o Repository do typeORM.
+  - Criação da migration para pesquisas (surveys).
+  - Criação do repository de pesquisas.
+  - Criação do controller de pesquisas..
+  - Criação de testes de integração automatizados para as rotas "/users" e "/surveys" utilizando Supertest.
